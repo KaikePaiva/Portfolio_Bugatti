@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 header{
     width: 100%;
     height: auto;
@@ -42,12 +50,12 @@ body{
 }
 
 .header{
+    width: 100%;
     display: flex;
     color: aliceblue;
     justify-content: space-between;
     align-items: center;
-    
-    
+    padding: 30px;
 }
 
 
@@ -71,4 +79,36 @@ body{
 
 .discover{
     margin-top: 500px;
+}
+
+.container-text{
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+  
+ 
+}
+
+.container-text h2{
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.container-text2{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.container-text2 a{
+    text-decoration: none;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    border: 1px solid aliceblue;
+    border-radius: 70px;
+    padding: 16px;
+    font-size: .75rem;
+    line-height: 1rem;
+    letter-spacing: .1rem;
+    
 }
