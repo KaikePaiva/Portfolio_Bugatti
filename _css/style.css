@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 auto;
     box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@ header{
     width: 100%;
     height: auto;
     padding-bottom: 100px;
-    margin-bottom: 500px;
+    margin-bottom: 250px;
 }
 
 section{
@@ -73,14 +73,6 @@ body{
     line-height: 1rem;
 }
 
-.container-background-video2{
-    margin-top: 500px;
-}
-
-.discover{
-    margin-top: 500px;
-}
-
 .container-text{
     position: relative;
     text-align: center;
@@ -111,4 +103,61 @@ body{
     line-height: 1rem;
     letter-spacing: .1rem;
     
+}
+
+.container-section{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.container-background-video2{
+    object-fit: cover;
+    margin-top: 500px;
+
+}
+
+.la_maison h2{
+    font-size: 48px;
+}
+
+.discover{
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards img{
+    display: block;
+    overflow: hidden;
+    width: 450px;
+    height: 300px;
+}
+
+.cards_image{
+    display: block;
+    border-radius: 50px;
+}
+
+.cards h2{
+    font-size: 36px;
+    padding-top: 16px;
+}
+
+.cards_a{
+    text-decoration: none;
+    margin-top: 16px;
+}
+
+.cards_a a{
+    text-decoration: none;
+    color: aliceblue;
 }
